@@ -1,0 +1,8 @@
+-- Made by gp#0021
+getgenv().mainaccount = "User"
+
+game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
+   if msg == "!execute" then
+       
+   end
+end)
