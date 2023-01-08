@@ -1,0 +1,5 @@
+-- local targetPart = game.Part1
+local target = "User"
+local Players = game:GetService("Players")
+
+Players.LocalPlayer.Character.Humanoid:MoveTo(Players.LocalPlayer.Character.HumanoidRootPart.Position+Players.target.Character.HumanoidRootPart.Position)
